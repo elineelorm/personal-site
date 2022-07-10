@@ -1,0 +1,131 @@
+a {
+    color: #18978F;
+    padding: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F7ECDE;
+}
+
+body{
+    background-color: #F7ECDE;
+    color: #40514E ;
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+hr {
+    border-color: #E9DAC1;
+    border-style: dotted none none none;
+    border-width: 5px;
+    width: 8%;
+}
+
+h1 {
+    color: #54BAB9;
+    font-family: 'Dancing Script', cursive;
+    font-size: 5.6rem;
+    margin: 50px auto 0 auto;
+}
+
+h2 {
+    color: #54BAB9;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+h3 {
+    color: #18978F;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    line-height: 2;
+}
+
+.btn {
+    background: #54BAB9;
+    border-radius: 10px;
+    color: #F7ECDE;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    position: relative;
+    text-decoration: none;
+    top: 40px;
+  }
+  
+  .btn:hover {
+    background: #18978F;
+    text-decoration: none;
+  }
+
+.bottom-cloud {
+    bottom: 300px;
+    left: 200px;
+    position: absolute;
+}
+
+.bottom-container {
+    background-color:#54BAB9;
+    padding: 40px 0 20px;
+}
+
+.contact-me {
+    margin: 100px auto 100px auto;
+    width: 50%;
+}
+
+.copyright{
+    color: #F7ECDE;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+.embed-img{
+    float: right;
+    margin-left: 30px;
+    width: 25%;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.profile {
+    margin: 100px auto 100px auto;
+    width: 50%;
+}
+
+.skill-row{
+    line-height: 2;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    width: 50%;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+
+.top-container {
+    background-color:#E9DAC1;
+    padding-top: 100px;
+    position: relative;
+}
+
+.web-dev-img{
+    float: left;
+    margin-right: 30px;
+    width: 25%;
+}
