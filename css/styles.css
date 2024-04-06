@@ -1,4 +1,4 @@
-a {
+/* a {
     color: #18978F;
     padding: 20px;
     text-decoration: none;
@@ -64,12 +64,6 @@ p {
     text-decoration: none;
   }
 
-.bottom-cloud {
-    bottom: 300px;
-    left: 200px;
-    position: absolute;
-}
-
 .bottom-container {
     background-color:#54BAB9;
     padding: 40px 0 20px;
@@ -112,11 +106,6 @@ p {
     width: 50%;
 }
 
-.top-cloud {
-    position: absolute;
-    right: 200px;
-    top: 50px;
-}
 
 .top-container {
     background-color:#E9DAC1;
@@ -128,4 +117,145 @@ p {
     float: left;
     margin-right: 30px;
     width: 25%;
+} */
+
+body {
+    font-family: 'Playfair Display', serif;;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Playfair Display', serif;;
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+    font-family: 'Playfair Display', serif;;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+    padding: 7% 15%;
+}
+
+
+/* Sections */
+.colored-section-1 {
+    background-color: black;
+}
+
+.colored-section-2 {
+    background-color: black;
+}
+
+
+/* Navigation Bar */
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+}
+
+
+/* Title Section */
+
+#title {
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.pro {
+    text-decoration: underline;
+    text-decoration-color: #f00510;
+}
+
+/* Download Buttons */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-image {
+    width: 60%;
+    position: absolute;
+    right: 30%;
+}
+
+.title-img-div{
+    position: relative;
+}
+
+/* Features section */
+
+#features {
+    background-color: white;
+    position: relative;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 2%;
+}
+
+.feature-image {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.feature-image:hover {
+    color: #ff4c68;
+}
+
+
+/* CTA Section */
+
+
+/* Footer Section */
+
+.icon {
+    margin: 20px 10px;
+}
+
+@media (max-width: 1030px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
 }
