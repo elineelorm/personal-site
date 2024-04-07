@@ -240,7 +240,10 @@ p {
 
 
 /* CTA Section */
-
+.project-image {
+    height: 400px;
+    width: auto;
+}
 
 /* Footer Section */
 
@@ -258,4 +261,12 @@ p {
         position: static;
         transform: rotate(0);
     }
+}
+
+hr {
+    /* border-color: #E9DAC1; */
+    border-style: none none none none;
+    border-width: 5px;
+    width: 8%;
+    align-self: center;
 }
