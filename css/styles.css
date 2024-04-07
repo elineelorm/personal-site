@@ -124,9 +124,25 @@ body {
     text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
     font-family:'Playfair Display', serif;;
     font-weight: bold;
+}
+
+h1 {
+    color: #ff4c68;
+    /* font-family: 'Dancing Script', cursive; */
+    font-size: 6rem;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #ff4c68;
+}
+
+h3 {
+    color: #f7ecde;
+    font-family: 'Raleway', sans-serif;
 }
 
 p {
